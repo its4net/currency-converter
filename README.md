@@ -7,4 +7,8 @@ To get this project working you will have to do the following after you clone th
 
 1. clone the repository
 2. run 'composer install'
+3. run 'php artisan key:generate'
+4. to run locally run 'php artisan serve'
+5. open browser and go to 'http://localhost:8000'
+
 
