@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'CurrencyController@index')->name('index');
+Route::post('/convert','CurrencyController@convert')->name('convert');
